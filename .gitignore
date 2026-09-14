@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Flet build output
+build/
+storage/
+
+# Local app data (created at runtime, see taskflow/storage.py)
+.taskflow/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Env files
+.env
